@@ -2,6 +2,10 @@ import React from 'react';
 
 export default function Contact() {
 
+  function handleFormSubmit() {
+    window.location.replace('/');
+  };
+
   return (
   <div>
     <h1>Contact Me</h1>
@@ -38,7 +42,7 @@ export default function Contact() {
       </div>
 
       <div class="col-auto">
-        <button type="submit" class="btn btn-dark mt-4" style={{width: "200px"}}>Submit</button>
+        <button type="submit" class="btn btn-dark mt-4" style={{width: "200px"}} onSubmit={handleFormSubmit}>Submit</button>
       </div>
     </form>
   </div>
