@@ -5,7 +5,7 @@ export default function Home() {
     <div className='container-lg'>
       <div className='row'>
         <div className='col-12 col-lg-6'>
-          <img src='/images/Danny.jpg' alt='Danny Wittig' width='100%' style={{borderRadius: "15px", float: "left" }}></img>
+          <img src='images/Danny.jpg' alt='Danny Wittig' width='100%' style={{borderRadius: "15px", float: "left" }}></img>
         </div>
         <div className='col-12 col-lg-6 my-3'>
           <h1>
