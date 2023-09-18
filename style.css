@@ -1,0 +1,56 @@
+.general, html {
+    font-family: 'Montserrat';
+    background-color: #C6D2CA;
+}
+
+.customNav {
+    background-color: #7E8F7D;
+}
+
+.customNav h4 {
+    font-weight: bold;
+}
+
+.customNav a {
+    color: black;
+    padding: 1em;
+}
+.customNav a:focus {
+    color: black;
+}
+
+.customNav a:hover {
+    color: black;
+    background-color: #C6D2CA;
+}
+
+.main {
+    background-image: linear-gradient( #d2ad91, #C6D2CA);
+    height: 100%;
+    border-radius: 20px;
+    overflow-y: scroll;
+    box-shadow: -9px 9px 18px -3px rgba(0,0,0,0.5);
+}
+
+.main .formDiv {
+    background-color: #d2ad91;
+}
+
+.project {
+    border: 8px solid black;
+}
+
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    bottom: 0px;
+    width: 100vw;
+    background-color: #7E8F7D;
+    border-top: solid 1px black;
+}
+
+.footerIcon {
+    padding-left: 20px;
+    padding-right: 20px;
+}
