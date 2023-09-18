@@ -4,7 +4,7 @@
 }
 
 .customNav {
-    background-color: #CC9E73;
+    background-color: #7E8F7D;
 }
 
 .customNav h4 {
@@ -25,9 +25,19 @@
 }
 
 .main {
-    background-image: linear-gradient( #CC9E73, #C6D2CA);
+    background-image: linear-gradient( #d2ad91, #C6D2CA);
     height: 100%;
     border-radius: 20px;
+    overflow-y: scroll;
+    box-shadow: -9px 9px 18px -3px rgba(0,0,0,0.5);
+}
+
+.main .formDiv {
+    background-color: #d2ad91;
+}
+
+.project {
+    border: 8px solid black;
 }
 
 .footer {
@@ -36,7 +46,7 @@
     justify-content: right;
     bottom: 0px;
     width: 100vw;
-    background-color: #CC9E73;
+    background-color: #7E8F7D;
     border-top: solid 1px black;
 }
 
