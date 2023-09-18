@@ -1,0 +1,46 @@
+.general, html {
+    font-family: 'Montserrat';
+    background-color: #C6D2CA;
+}
+
+.customNav {
+    background-color: #CC9E73;
+}
+
+.customNav h4 {
+    font-weight: bold;
+}
+
+.customNav a {
+    color: black;
+    padding: 1em;
+}
+.customNav a:focus {
+    color: black;
+}
+
+.customNav a:hover {
+    color: black;
+    background-color: #C6D2CA;
+}
+
+.main {
+    background-image: linear-gradient( #CC9E73, #C6D2CA);
+    height: 100%;
+    border-radius: 20px;
+}
+
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    bottom: 0px;
+    width: 100vw;
+    background-color: #CC9E73;
+    border-top: solid 1px black;
+}
+
+.footerIcon {
+    padding-left: 20px;
+    padding-right: 20px;
+}

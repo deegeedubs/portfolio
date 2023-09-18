@@ -1,55 +1,57 @@
 import React from 'react';
 
-// TODO: Add a comment explaining how we are able to extract the key value pairs from props
-
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+      <div class="customNav container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <h2 className='mx-3'>Danny Wittig</h2>
+          <ul className="nav justify-content-start customNav">
+            <li className="nav-item">
+              <a
+                href="#home"
+                onClick={() => handlePageChange('Home')}
+                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+              >
+                About Me
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                href="#projects"
+                onClick={() => handlePageChange('Projects')}
 
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-          //  TODO: Add a comment explaining what this logic is doing
+                className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+              >
+                Projects
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                href="#contact"
+                onClick={() => handlePageChange('Contact')}
+                className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+              >
+                Contact
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                href="#Resume"
+                onClick={() => handlePageChange('Resume')}
+                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+              >
+                Resume
+              </a>
+            </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
 
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#blog"
-          onClick={() => handlePageChange('Blog')}
-          //  TODO: Add a comment explaining what this logic is doing
-
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
-        >
-          Blog
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
-          //  TODO: Add a comment explaining what this logic is doing
-
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </a>
-      </li>
-    </ul>
   );
 }
 

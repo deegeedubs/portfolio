@@ -1,23 +1,23 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
-import About from './pages/About';
-import Blog from './pages/Blog';
+import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
+import Footer from './Footer';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
-  // TODO: Add a comment describing the functionality of this method
   const renderPage = () => {
     if (currentPage === 'Home') {
       return <Home />;
     }
-    if (currentPage === 'About') {
-      return <About />;
+    if (currentPage === 'Projects') {
+      return <Projects />;
     }
-    if (currentPage === 'Blog') {
-      return <Blog />;
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     return <Contact />;
   };
@@ -25,11 +25,12 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
+    <div className='general'>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
-      {renderPage()}
+      <div className='container-sm main p-4 my-4'>
+        {renderPage()}
+      </div>
+      <Footer />
     </div>
   );
 }
