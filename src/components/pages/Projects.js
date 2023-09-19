@@ -1,4 +1,10 @@
 import React from 'react';
+import corkboard from '../../images/Corkboard-Screenshot.png';
+import cruise from '../../images/CC_Screenshot.png';
+import deco from '../../images/Deco-Screenshot.png';
+import book from '../../images/BookSearch-Screenshot.png';
+import noteTaker from '../../images/NoteTaker-Screenshot.png';
+import JATE from '../../images/JATE-Screenshot.png';
 
 export default function Projects() {
   return (
@@ -12,7 +18,7 @@ export default function Projects() {
           <div className="col-12 col-lg-6">
             <div className="card mb-3 project" >
               <a href='https://corkboard-1d9df6d8e0e1.herokuapp.com/' target='blank'>
-                <img src="/images/Corkboard-Screenshot.png" className="card-img-top img-fluid" alt="Corkboard Website" style={{objectFit: "cover", height: "300px"}}/>
+                <img src={corkboard} className="card-img-top img-fluid" alt="Corkboard Website" style={{objectFit: "cover", height: "300px"}}/>
               </a>
               <div className="card-body" style={{objectFit: "cover", height: "180px", overflowY: "scroll"}}>
                 <h5 className="card-title">Corkboard</h5>
@@ -30,7 +36,7 @@ export default function Projects() {
           <div className="col-12 col-lg-6">
             <div className="card mb-3 project" >
               <a href='https://passenger-party.github.io/Cruise-Controller/index.html' target='blank'>
-                <img src="/images/CC_Screenshot.png" className="card-img-top img-fluid" alt="Cruise Controller Website" style={{objectFit: "cover", height: "300px"}}/>
+                <img src={cruise} className="card-img-top img-fluid" alt="Cruise Controller Website" style={{objectFit: "cover", height: "300px"}}/>
                 </a>
               <div className="card-body" style={{objectFit: "cover", height: "180px", overflowY: "scroll"}}>
                 <h5 className="card-title">Cruise Controller</h5>
@@ -50,7 +56,7 @@ export default function Projects() {
           <div className="col-12 col-lg-6">
             <div className="card mb-3 project" >
               <a href='https://deco-app-f64152d80c15.herokuapp.com/' target='blank'>
-                <img src="/images/Deco-Screenshot.png" className="card-img-top img-fluid" alt="Deco Website" style={{objectFit: "cover", height: "300px"}}/>
+                <img src={deco} className="card-img-top img-fluid" alt="Deco Website" style={{objectFit: "cover", height: "300px"}}/>
               </a>
               <div className="card-body" style={{objectFit: "cover", height: "180px", overflowY: "scroll"}}>
                 <h5 className="card-title">Deco</h5>
@@ -68,7 +74,7 @@ export default function Projects() {
           <div className="col-12 col-lg-6">
             <div className="card mb-3 project" >
               <a href='https://book-search-engine-deegeedubs-36cf890a7e18.herokuapp.com/' target='blank'>
-                <img src="/images/BookSearch-Screenshot.png" className="card-img-top img-fluid" alt="Book Search Engine" style={{objectFit: "cover", height: "300px"}}/>
+                <img src={book} className="card-img-top img-fluid" alt="Book Search Engine" style={{objectFit: "cover", height: "300px"}}/>
                 </a>
               <div className="card-body" style={{objectFit: "cover", height: "180px", overflowY: "scroll"}}>
                 <h5 className="card-title">Book Search Engine</h5>
@@ -88,7 +94,7 @@ export default function Projects() {
           <div className="col-12 col-lg-6">
             <div className="card mb-3 project" >
               <a href='https://express-note-taker-deegeedubs-15d651057cff.herokuapp.com/' target='blank'>
-                <img src="/images/NoteTaker-Screenshot.png" className="card-img-top img-fluid" alt="Note Taker Website" style={{objectFit: "cover", height: "300px"}}/>
+                <img src={noteTaker} className="card-img-top img-fluid" alt="Note Taker Website" style={{objectFit: "cover", height: "300px"}}/>
               </a>
               <div className="card-body" style={{objectFit: "cover", height: "180px", overflowY: "scroll"}}>
                 <h5 className="card-title">Express Note Taker</h5>
@@ -106,7 +112,7 @@ export default function Projects() {
           <div className="col-12 col-lg-6">
             <div className="card mb-3 project" >
               <a href='https://jate-deegeedubs-3ef425485e61.herokuapp.com/' target='blank'>
-                <img src="/images/JATE-Screenshot.png" className="card-img-top img-fluid" alt="Just Another Text Editor Website" style={{objectFit: "cover", height: "300px"}}/>
+                <img src={JATE} className="card-img-top img-fluid" alt="Just Another Text Editor Website" style={{objectFit: "cover", height: "300px"}}/>
                 </a>
               <div className="card-body" style={{objectFit: "cover", height: "180px", overflowY: "scroll"}}>
                 <h5 className="card-title">Just Another Text Editor</h5>
