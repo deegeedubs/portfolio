@@ -1,13 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.eefc237f.css",
-    "main.js": "/portfolio/static/js/main.d56463d5.js",
+    "main.js": "/portfolio/static/js/main.64f48a22.js",
+    "static/media/BookSearch-Screenshot.png": "/portfolio/static/media/BookSearch-Screenshot.b0a55a6192aaf5f1aa0a.png",
+    "static/media/Corkboard-Screenshot.png": "/portfolio/static/media/Corkboard-Screenshot.239a9673401e33e0a4be.png",
+    "static/media/CC_Screenshot.png": "/portfolio/static/media/CC_Screenshot.20e464734992bad8ce18.png",
+    "static/media/Deco-Screenshot.png": "/portfolio/static/media/Deco-Screenshot.df23620c17f8d9b0416a.png",
+    "static/media/Danny.jpeg": "/portfolio/static/media/Danny.c7338a4ee26ea1fc12d6.jpeg",
+    "static/media/Resume-Screenshot.png": "/portfolio/static/media/Resume-Screenshot.d8981d573932735c72e0.png",
+    "static/media/NoteTaker-Screenshot.png": "/portfolio/static/media/NoteTaker-Screenshot.cef223e98c2249789489.png",
+    "static/media/JATE-Screenshot.png": "/portfolio/static/media/JATE-Screenshot.0d70c5837e0fefcba24b.png",
     "index.html": "/portfolio/index.html",
+    "static/media/envelope-at.svg": "/portfolio/static/media/envelope-at.5ceff8a04c8c710d850f7f9712ec905f.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
+    "static/media/download.svg": "/portfolio/static/media/download.dd049ccb0ea43c184f22e020e2cd8f67.svg",
     "main.eefc237f.css.map": "/portfolio/static/css/main.eefc237f.css.map",
-    "main.d56463d5.js.map": "/portfolio/static/js/main.d56463d5.js.map"
+    "main.64f48a22.js.map": "/portfolio/static/js/main.64f48a22.js.map"
   },
   "entrypoints": [
     "static/css/main.eefc237f.css",
-    "static/js/main.d56463d5.js"
+    "static/js/main.64f48a22.js"
   ]
 }
